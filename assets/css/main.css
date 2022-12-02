@@ -199,7 +199,7 @@ body,
 input,
 select,
 textarea {
-  color: #a2a2a2;
+  color: #777474;
   font-family: "pt_serifregular", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -224,7 +224,7 @@ a:hover {
 
 strong,
 b {
-  color: #787878;
+  color: #777474;
   font-weight: 400;
 }
 
@@ -243,7 +243,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #574f4f;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -265,23 +265,25 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.7rem;
   line-height: 1.5em;
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.6rem;
   line-height: 1.5em;
 }
 
 h4 {
-  font-size: 1.1em;
+  font-size: 1.5rem;
   line-height: 1.5em;
 }
 
 h5 {
-  font-size: 0.9em;
+  font-size: 1.1rem;
   line-height: 1.5em;
+  font-style: italic;
+
 }
 
 h6 {
@@ -1995,7 +1997,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: #a2a2a2;
+  color: #777474;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -2480,7 +2482,7 @@ table tbody tr {
 }
 
 table tbody tr:nth-child(2n + 1) {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 
 table td {
