@@ -2700,13 +2700,12 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  background-color: #454545;
   background-attachment: scroll, scroll;
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-  background-position: top left, top left;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, 150%;
-  color: rgba(255, 255, 255, 0.5);
+  /* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+  /* background-position: top left, top left;*/
+  /* background-repeat: repeat, no-repeat;*/
+  /* background-size: auto, 150%; */
   height: 100%;
   left: 0;
   padding: 8em 4em;
@@ -3324,10 +3323,28 @@ body.is-touch .poptrox-popup .closer {
 
 /* Custom */
 
+/* Header */
 #header .inner h1 {
   margin-bottom: 2rem;
 }
 
 #header .inner ul {
 	list-style: none;
+}
+
+#header .footer--stuff{
+  list-style: none;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #b2b2b2;
+}
+
+#header h1 {
+  color: #b2b2b2;
+}
+
+/* Footer */
+
+#footer .icons a {
+  color: #b2b2b2;
 }
